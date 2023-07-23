@@ -1,0 +1,31 @@
+{
+    "name": "WebRadio",
+    "short_name": "WebRadio",
+    "icons": [
+		{
+			"src": "/icon/favicon512.svg",
+			"sizes": "512x512",
+			"type": "image/svg+xml",
+			"purpose": "maskable any"
+		},
+        {
+            "src": "/icon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+			"purpose": "maskable any"
+        },
+        {
+            "src": "/icon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+			"purpose": "maskable any"
+        }
+    ],
+	"scope": "/",
+    "background_color": "#121316",
+    "theme_color": "#121316",
+    "display": "standalone",
+	"start_url": "/",
+	"description": "Online radio player",
+	"orientation": "any"
+}

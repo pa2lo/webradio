@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>favicon512</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D043D0" offset="0%"></stop>
+            <stop stop-color="#2A1FAD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="favicon512">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="512" height="512" rx="40"></rect>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" cx="256" cy="256" r="34.1333333"></circle>
+            <path d="M328.362667,183.637333 C347.591037,202.844322 358.39522,228.907426 358.39522,256.085333 C358.39522,283.263241 347.591037,309.326345 328.362667,328.533333 M183.637333,328.362667 C164.408964,309.155678 153.60478,283.092574 153.60478,255.914667 C153.60478,228.736759 164.408964,202.673655 183.637333,183.466667 M376.661333,135.338667 C443.286518,201.983974 443.286518,310.016026 376.661333,376.661333 M135.338667,376.661333 C68.7134826,310.016026 68.7134826,201.983974 135.338667,135.338667" id="Shape" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

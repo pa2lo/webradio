@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D043D0" offset="0%"></stop>
+            <stop stop-color="#2A1FAD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-copy">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="30" height="30" rx="2"></rect>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="15" cy="15" r="2"></circle>
+            <path d="M19.24,10.76 C20.3666623,11.8854095 20.9997199,13.4125445 20.9997199,15.005 C20.9997199,16.5974555 20.3666623,18.1245905 19.24,19.25 M10.76,19.24 C9.63333774,18.1145905 9.00028006,16.5874555 9.00028006,14.995 C9.00028006,13.4025445 9.63333774,11.8754095 10.76,10.75 M22.07,7.93 C25.9738194,11.8349985 25.9738194,18.1650015 22.07,22.07 M7.93,22.07 C4.02618062,18.1650015 4.02618062,11.8349985 7.93,7.93" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
