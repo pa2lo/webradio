@@ -323,6 +323,7 @@ a.bttnSmall {
 	background: linear-gradient(to bottom, var(--player1), var(--player2));
 	background-size: 100% 500%;
 	background-position: top;
+	padding-bottom: env(safe-area-inset-bottom);
 	transition: box-shadow .15s;
 }
 .mobileNav.wShadow {
@@ -806,6 +807,7 @@ a.bttnSmall {
 }
 .browser.playerActive {
 	margin-bottom: var(--stickyPlayerHeight);
+	margin-bottom: calc(env(safe-area-inset-bottom) + var(--stickyPlayerHeight));
 	/* scroll-behavior: smooth; */
 	display: flex;
 	flex-direction: column;
@@ -846,6 +848,7 @@ a.bttnSmall {
 .playerSmall {
 	position: fixed;
 	bottom: var(--stickyNavHeight);
+	bottom: calc(env(safe-area-inset-bottom) + var(--stickyNavHeight));
 	width: 100%;
 	padding: 0.5rem 1rem;
 	z-index: 2;
