@@ -21,6 +21,7 @@
 	import SwitchInput from './components/SwitchInput.vue'
 
 	const SHOW_LOGS = false
+	const API_URL = "https://de1.api.radio-browser.info"
 
 	const toaster = inject('toaster')
 	const t = inject('t')
@@ -262,7 +263,7 @@
 
 	/* radio-browser click */
 	function clickStationCount(uuid) {
-		client(`https://at1.api.radio-browser.info/json/url/${uuid}`)
+		client(`${API_URL}/json/url/${uuid}`)
 	}
 
 	/* HLS */
@@ -659,10 +660,10 @@
 			let tempStations = []
 
 			function getCZStations() {
-				return client('https://at1.api.radio-browser.info/json/stations/search?language=czech&hidebroken=true')
+				return client(`${API_URL}/json/stations/search?language=czech&hidebroken=true`)
 			}
 			function getSKStations() {
-				return client('https://at1.api.radio-browser.info/json/stations/search?language=slovak&hidebroken=true')
+				return client(`${API_URL}/json/stations/search?language=slovak&hidebroken=true`)
 			}
 
 			Promise.all([getCZStations(), getSKStations()]).then(result => {
@@ -682,15 +683,15 @@
 	}
 
 	function fetchData() {
-		client('https://at1.api.radio-browser.info/json/countries').then(data => {
+		client(`${API_URL}/json/countries`).then(data => {
 			filterData.countries = data.map((v) => ({...v, flag: `https://flagcdn.com/w20/${v.iso_3166_1.toLowerCase()}.png`}))
 			localizeCountries()
 		})
-		client('https://at1.api.radio-browser.info/json/languages').then(data => {
+		client(`${API_URL}/json/languages`).then(data => {
 			filterData.languages = data
 			localizeLanguages()
 		})
-		client('https://at1.api.radio-browser.info/json/tags?order=stationcount&reverse=true').then(data => filterData.tags = data)
+		client(`${API_URL}/json/tags?order=stationcount&reverse=true`).then(data => filterData.tags = data)
 	}
 
 	function loadlist(type, item, onInit = false) {
@@ -725,7 +726,7 @@
 			limit: limit,
 			hidebroken: true,
 		}
-		client('https://at1.api.radio-browser.info/json/stations/search', params).then((data) => {
+		client(`${API_URL}/json/stations/search`, params).then((data) => {
 			let list = data
 
 			if (list.length) list = reduceRadioList(list)
