@@ -15,7 +15,7 @@ Vue 3 based online radio player PWA. App uses [RadioBrowser](https://www.radio-b
 - supports streaming to Chromecast - works only in Chromium-based browsers (Chrome, Opera, Vivaldi, Brave...)
 - supports AirPlay streaming - works only in Safari
 
-and some not so usefull features
+and some not so useful features
 
 - keyboard shortcuts
 - dark / light theme
